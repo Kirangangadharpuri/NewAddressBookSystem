@@ -12,7 +12,8 @@ namespace AdressBookAssignment
         {
 
             Console.WriteLine("!!!!!!Welcome to Adress Book Program!!!!!!");
-
+            AddPerson contact = new AddPerson();
+            contact.details();
         }
     }
 }
